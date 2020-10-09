@@ -1,4 +1,4 @@
-package com.huihui.aligo;
+package com.huihui.aligo.exception;
 
 /**
  * @author minghui.y BG358486

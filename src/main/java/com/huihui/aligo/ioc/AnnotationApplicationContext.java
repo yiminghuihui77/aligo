@@ -1,6 +1,6 @@
 package com.huihui.aligo.ioc;
 
-import com.huihui.aligo.annotation.ExtAutowire;
+import com.huihui.aligo.annotation.ExtAutowired;
 import com.huihui.aligo.annotation.ExtComponent;
 import com.huihui.aligo.ioc.utils.ClassUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -91,7 +91,7 @@ public class AnnotationApplicationContext {
         Field[] fields = clazz.getDeclaredFields();
         for (Field field : fields) {
             //判断属性是否被@ExtAutowire注解
-            ExtAutowire extAutowire = field.getAnnotation(ExtAutowire.class);
+            ExtAutowired extAutowire = field.getAnnotation(ExtAutowired.class);
             if (extAutowire != null) {
                 //从IOC容器中查询Filed的bean
                 String fieldBeanId = ClassUtils.generateBeanId(field.getType());

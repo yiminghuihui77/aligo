@@ -1,4 +1,4 @@
-package com.huihui.genericity;
+package com.huihui.aligo.genericity;
 
 import java.util.ArrayList;
 

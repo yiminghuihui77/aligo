@@ -36,7 +36,7 @@ public class HelloWorldController {
     }
 
 
-    @RequestMapping(value = SEARCH_STORES, method = RequestMethod.POST)
+    @RequestMapping(value = SEARCH_STORES, method = RequestMethod.GET)
     public List<Store> searchStores() {
         return storeService.searchStores();
     }

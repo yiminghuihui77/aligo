@@ -1,6 +1,6 @@
 package com.huihui.aligo.model;
 
-import com.huihui.aligo.annotation.ExtAutowire;
+import com.huihui.aligo.annotation.ExtAutowired;
 import com.huihui.aligo.annotation.ExtComponent;
 import lombok.Data;
 import lombok.ToString;
@@ -20,7 +20,7 @@ public class User {
 
     private String sex;
 
-    @ExtAutowire
+    @ExtAutowired
     private Foot foot;
 
     public void talk() {

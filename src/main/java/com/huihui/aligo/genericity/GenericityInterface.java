@@ -1,4 +1,4 @@
-package com.huihui.genericity;
+package com.huihui.aligo.genericity;
 
 import com.huihui.aligo.model.Store;
 

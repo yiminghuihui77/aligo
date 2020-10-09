@@ -1,13 +1,12 @@
 package com.huihui.aligo.service.impl;
 
-import com.huihui.aligo.annotation.MyTransactional;
+import com.huihui.aligo.annotation.ExtTransactional;
 import com.huihui.aligo.jdbc.JdbcUtils;
 import com.huihui.aligo.model.Store;
 import com.huihui.aligo.repository.TransactionRepository;
 import com.huihui.aligo.service.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -67,8 +66,7 @@ public class TransactionServiceImpl implements TransactionService {
      * @return
      */
     @Override
-    @MyTransactional
-    @Transactional
+    @ExtTransactional
     public void insertStore(List<Store> stores) {
          transactionRepository.insertStore(stores);
     }

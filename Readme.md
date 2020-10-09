@@ -8,22 +8,30 @@ aligo
 -------
 
 知识点:
-Spring AOP
-反射
-编程式事务、声明式事务
-手写一个事务注解
+------
 
-字节码技术：javassist动态创建/修改类
+>Spring AOP
 
-原生JDBC使用 & Spring-JDBC使用(JdbcTemplate)
+>反射
 
+>编程式事务、声明式事务
+
+>手写一个事务注解
+
+>字节码技术：javassist动态创建/修改类
+
+>原生JDBC使用 & Spring-JDBC使用(JdbcTemplate)
+
+>框架篇
+手写Spring框架 ：XML解析、扫包、依赖注入(Field反射)
+手写SpringMVC框架：DispatcherServlet
 MyBatis框架
-Spring Boot框架
-手写Spring框架 ：XML解析、扫包、依赖注入(反射)
+Spring Boot框架````
 
-并发编程：
+
+>并发编程：
 死锁、线程间通讯、同步、线程池、阻塞队列、volatile关键字、CAS锁
 
-IO流
+>IO流
 
-设计模式（demo在eclipse中）
+>设计模式（demo在eclipse中）

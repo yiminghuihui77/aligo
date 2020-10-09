@@ -1,6 +1,6 @@
 package com.huihui.aligo.aop;
 
-import com.huihui.aligo.annotation.MyTransactional;
+import com.huihui.aligo.annotation.ExtTransactional;
 import com.huihui.aligo.transaction.TransactionHelper;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.AfterThrowing;
@@ -52,7 +52,7 @@ public class AopTransactionAspect {
         Method method = clazz.getMethod(methodName, params);
 
         //2、获取方法上的注解
-        MyTransactional myTransactional = method.getDeclaredAnnotation(MyTransactional.class);
+        ExtTransactional myTransactional = method.getDeclaredAnnotation(ExtTransactional.class);
 
         //3、若存在自定义的事务注解，则方法执行前开启事务
         if (myTransactional != null) {

@@ -3,13 +3,17 @@ package com.huihui.aligo.annotation;
 import java.lang.annotation.*;
 
 /**
- * 依赖注入注解
+ * 事务注解
  *
  * @author minghui.y BG358486
- * @create 2020-10-08 14:33
+ * @create 2020-10-07 9:47
  **/
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.FIELD)
-public @interface ExtAutowire {
+@Target(ElementType.METHOD)
+@Inherited
+public @interface ExtTransactional {
 }
+
+
+
