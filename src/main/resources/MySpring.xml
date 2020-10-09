@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ibeans>
+    <ibean id="store" class="com.huihui.aligo.model.Store">
+        <iproperty name="name" value="一号店铺"/>
+        <iproperty name="address" value="浙江省杭州市"/>
+        <iproperty name="code" value="storeCode001"/>
+    </ibean>
+
+    <ibean id="user" class="com.huihui.aligo.model.User">
+        <iproperty name="name" value="张三"/>
+        <iproperty name="age" value="18"/>
+        <iproperty name="sex" value="男"/>
+    </ibean>
+
+</ibeans>

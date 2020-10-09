@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.huihui.aligo.mapper.StoreMapper">
+
+
+    <select id="getStoreBySo" parameterType="com.huihui.aligo.so.StoreSo" resultType="com.huihui.aligo.model.Store">
+        select *
+        from aligo_store s
+        <where>
+            <if test="id != null">
+                s.id = #{id}
+            </if>
+            <if test="userName != null and userName != ''">
+                s.user_name = #{userName}
+            </if>
+            <if test="name != null and name != ''">
+                s.name like CONCAT('%',#{name},'%')
+            </if>
+        </where>
+    </select>
+
+    <select id="searchStores" resultType="com.huihui.aligo.model.Store">
+         select *
+        from aligo_store s
+    </select>
+
+</mapper>
