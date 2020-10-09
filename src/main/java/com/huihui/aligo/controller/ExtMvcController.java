@@ -20,7 +20,7 @@ public class ExtMvcController {
 
     @ExtRequestMapping(value = "/testMvc")
     public String testMvc() {
-        foot.walk();
+//        foot.walk();
         return "ExtMvc success";
     }
 

@@ -5,6 +5,7 @@ import com.huihui.aligo.annotation.ExtComponent;
 import com.huihui.aligo.annotation.ExtController;
 import com.huihui.aligo.annotation.ExtRequestMapping;
 import com.huihui.aligo.ioc.utils.ClassUtils;
+import lombok.SneakyThrows;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,6 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.List;
@@ -154,7 +156,28 @@ public class ExtDispatcherServlet extends HttpServlet {
      */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPost(req, resp);
+
+        try {
+            //获取请求URL
+            String url = req.getRequestURI();
+
+            Method method = urlMethodMap.get(url);
+            if (method == null) {
+                resp.getWriter().println("url error for method: {404}");
+            }
+
+            Object bean = urlBeanMap.get(url);
+            if (bean == null) {
+                resp.getWriter().println("url error for bean: {404}");
+            }
+
+            //反射调用method
+            method.invoke(bean);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
         LOGGER.info("post请求完成");
     }
 
@@ -167,8 +190,7 @@ public class ExtDispatcherServlet extends HttpServlet {
      */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
-        LOGGER.info("get");
+        doPost(req, resp);
     }
 
 
