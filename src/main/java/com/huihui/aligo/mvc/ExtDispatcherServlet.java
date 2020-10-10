@@ -16,12 +16,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -50,7 +49,7 @@ public class ExtDispatcherServlet extends HttpServlet {
     /**
      * 能注入到IOC容器的注解
      */
-    private final List<Class<?>> beanAnnottions = Arrays.asList(ExtComponent.class, ExtController.class);
+    private final List<Class<?>> beanAnnotations = Arrays.asList(ExtComponent.class, ExtController.class);
 
     /**
      * 默认扫包路径（待优化）
@@ -112,6 +111,19 @@ public class ExtDispatcherServlet extends HttpServlet {
     }
 
     /**
+     * 获取类上所有注解的Class
+     * @param clazz
+     * @return
+     */
+    private List<Class<?>> getClassAnnotations(Class<?> clazz) {
+        List<Class<?>> classList = new ArrayList<>();
+        for (Annotation annotation : clazz.getAnnotations()) {
+            classList.add(annotation.annotationType());
+        }
+        return classList;
+    }
+
+    /**
      * 初始化IOC容器
      * 注册bean + 依赖注入
      * @throws Exception
@@ -121,8 +133,10 @@ public class ExtDispatcherServlet extends HttpServlet {
         List<Class<?>> classList = ClassUtils.getClasses(PACKAGE_SCAN_PATH);
         //遍历Class，获取bean存入IOC
         for (Class<?> clazz : classList) {
-            ExtController extController = clazz.getAnnotation(ExtController.class);
-            if (extController == null) {
+            List<Class<?>> currentAnnotations = getClassAnnotations(clazz);
+            Boolean isNotBean = Collections.disjoint(beanAnnotations, currentAnnotations);
+            //当前类没有被@ExtController或@ExtComponent注解
+            if (isNotBean) {
                 continue;
             }
             //生成默认的beanId
@@ -172,13 +186,31 @@ public class ExtDispatcherServlet extends HttpServlet {
             }
 
             //反射调用method
-            method.invoke(bean);
+            String result = (String) method.invoke(bean);
+
+            //调用视图解析器处理
+            viewResolver(result, req, resp);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        LOGGER.info("post请求完成");
+        LOGGER.info("post请求完成...");
+    }
+
+    /**
+     * 视图解析处理
+     * @param result
+     * @param req
+     * @param resp
+     */
+    private void viewResolver(String result, HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //后缀地址
+        String suffix = ".jsp";
+        //目录地址
+        String prefix = "/";
+        //请求转发（浏览器地址栏不变）
+        req.getRequestDispatcher(prefix + result + suffix).forward(req, resp);
     }
 
     /**
