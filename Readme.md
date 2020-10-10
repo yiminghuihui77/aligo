@@ -26,7 +26,8 @@ aligo
 手写Spring框架 ：XML解析、扫包、依赖注入(Field反射)
 手写SpringMVC框架：DispatcherServlet
 MyBatis框架
-Spring Boot框架````
+Spring Boot框架
+数据库连接池
 
 
 >并发编程：
