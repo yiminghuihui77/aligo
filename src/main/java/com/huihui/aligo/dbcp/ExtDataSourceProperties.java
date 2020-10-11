@@ -4,14 +4,16 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+
+
 /**
  * 自定义数据库配置bean
  *
  * @author minghui.y
  * @create 2020-10-10 16:25
  **/
-@Component
 @ConfigurationProperties(prefix = "ext.datasource")
+@Component
 @Data
 public class ExtDataSourceProperties {
 
@@ -22,7 +24,7 @@ public class ExtDataSourceProperties {
     /**
      * 数据库账号
      */
-    private String usernme;
+    private String username;
     /**
      * 数据库密码
      */
@@ -46,7 +48,7 @@ public class ExtDataSourceProperties {
     /**
      * 最大连接数
      */
-    private int maxActicveConnections = 100;
+    private int maxActiveConnections = 100;
     /**
      * 获取连接超时等待时间
      */

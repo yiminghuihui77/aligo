@@ -7,16 +7,208 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7b67f19-161a-4cf1-9897-42290e76e633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huihui/aligo/controller/DataSourceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourcePool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourceProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/aligo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/aligo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huihui/aligo/factory/YamlPropertyLoaderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aligo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aligo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huihui/aligo/AligoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huihui/aligo/AligoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huihui/aligo/controller/DataSourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huihui/aligo/controller/DataSourceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourcePool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourcePool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourceProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourceProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Spring.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT.war.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/MySpring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/Spring.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/AligoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/annotation/ExtAutowired.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/annotation/ExtComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/annotation/ExtController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/annotation/ExtRequestMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/annotation/ExtTransactional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/aop/AopTransactionAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/aop/AspectLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/classloader/MyClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/controller/ExtMvcController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/controller/HelloWorldController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/controller/JmeterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/controller/TransactionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/exception/AligoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/genericity/GenericityClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/genericity/GenericityInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/io/SequenceInputStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/io/UnicodeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/io/WriteDiary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/ioc/AnnotationApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/ioc/ApplicationContextDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/ioc/ClassPathXmlApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/ioc/XmlParseDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/ioc/utils/ClassUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/javassist/TestDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/javassist/TestDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/jdbc/JdbcDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/jdbc/JdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/mapper/StoreMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/model/BaseModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/model/Foot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/model/Store.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/mvc/ExtDispatcherServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/mvc/ServletDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/reflect/ReflectDemo001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/repository/StoreRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/repository/TransactionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/repository/impl/StoreRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/repository/impl/TransactionRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/service/StoreService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/service/TransactionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/service/impl/StoreServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/service/impl/TransactionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/so/StoreSo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/BlockingQueueDemo$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/BlockingQueueDemo$Provider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/BlockingQueueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/DaemonThread$MyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/DaemonThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/DataBetweemThreadDemo$Receive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/DataBetweemThreadDemo$Sender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/DataBetweemThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/DeadLockDemo$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/DeadLockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/LockDemo$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/LockDemo$Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/LockDemo$Provider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/LockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/MyThread$MyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/SynchronizedDemo$SaleTickets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/SynchronizedDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/SynchronizedDemo2$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/SynchronizedDemo2$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/SynchronizedDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/ThreadPoolDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/ThreadPoolDemo2$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/ThreadPoolDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/thread/VolatileDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/com/huihui/aligo/transaction/TransactionHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/config/application-company.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/config/application-home.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/config/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/StoreMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/HikariCP-3.4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/commons-lang3-3.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/druid-1.1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/druid-spring-boot-starter-1.1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/fastjson-1.1.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.13.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.13.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/lombok-1.18.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-3.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-autoconfigure-2.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-starter-2.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-aop-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aligo-0.0.1-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Spring.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/AligoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/AligoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/aop/AopTransactionAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/aop/AopTransactionAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/aop/AspectLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/aop/AspectLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/classloader/MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/classloader/MyClassLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/controller/HelloWorldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/controller/HelloWorldController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/exception/AligoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/exception/AligoException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/genericity/GenericityClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/genericity/GenericityClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/io/SequenceInputStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/io/SequenceInputStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/io/UnicodeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/io/UnicodeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/io/WriteDiary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/io/WriteDiary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/ioc/AnnotationApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/ioc/AnnotationApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/ioc/ApplicationContextDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/ioc/ApplicationContextDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/ioc/ClassPathXmlApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/ioc/ClassPathXmlApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/ioc/XmlParseDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/ioc/XmlParseDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/ioc/utils/ClassUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/ioc/utils/ClassUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/javassist/TestDemo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/javassist/TestDemo01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/javassist/TestDemo02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/javassist/TestDemo02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/jdbc/JdbcDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/jdbc/JdbcDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/mapper/StoreMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/mapper/StoreMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/model/BaseModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/model/BaseModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/model/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/model/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/reflect/ReflectDemo001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/reflect/ReflectDemo001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/repository/StoreRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/repository/StoreRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/repository/TransactionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/repository/TransactionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/repository/impl/StoreRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/repository/impl/StoreRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/repository/impl/TransactionRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/repository/impl/TransactionRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/service/StoreService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/service/StoreService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/service/TransactionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/service/TransactionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/service/impl/StoreServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/service/impl/StoreServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/service/impl/TransactionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/service/impl/TransactionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/so/StoreSo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/so/StoreSo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/BlockingQueueDemo$Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/BlockingQueueDemo$Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/BlockingQueueDemo$Provider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/BlockingQueueDemo$Provider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/BlockingQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/BlockingQueueDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/DaemonThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/DaemonThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/DataBetweemThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/DataBetweemThreadDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/DeadLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/DeadLockDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/LockDemo$Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/LockDemo$Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/LockDemo$Provider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/LockDemo$Provider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/LockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/LockDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/SynchronizedDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/SynchronizedDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/SynchronizedDemo2$Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/SynchronizedDemo2$Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/SynchronizedDemo2$Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/SynchronizedDemo2$Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/SynchronizedDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/SynchronizedDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/ThreadPoolDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/ThreadPoolDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/ThreadPoolDemo2$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/ThreadPoolDemo2$Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/ThreadPoolDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/ThreadPoolDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/VolatileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huihui/aligo/thread/VolatileDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.huihui.aligo.AligoApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.huihui.aligo.AligoApplicationTests.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,35 +221,48 @@
     <session id="-61996244">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="class" value="8" />
+          <entry key="java" value="16" />
           <entry key="jsp" value="2" />
-          <entry key="xml" value="4" />
+          <entry key="md" value="1" />
+          <entry key="xml" value="9" />
+          <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="CLASS" value="8" />
+          <entry key="JAVA" value="16" />
           <entry key="JSP" value="2" />
-          <entry key="XML" value="4" />
+          <entry key="Markdown" value="1" />
+          <entry key="XML" value="9" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="243" />
-          <entry key="xml" value="27" />
+          <entry key="java" value="687" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="30" />
+          <entry key="yml" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="243" />
-          <entry key="XML" value="27" />
+          <entry key="JAVA" value="687" />
+          <entry key="Properties" value="7" />
+          <entry key="XML" value="30" />
+          <entry key="YAML" value="69" />
         </counts>
       </usages-collector>
     </session>
@@ -109,31 +314,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSource.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/controller/DataSourceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourcePool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/controller/DataSourceController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourcePool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="-19">
+              <caret line="77" column="93" lean-forward="true" selection-start-line="77" selection-start-column="93" selection-end-line="77" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,12 +340,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourceProperties.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="114">
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.3/mybatis-spring-boot-autoconfigure-2.1.3-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="85" column="65" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="65" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#5447#5448#0" expanded="true" />
+                <element signature="e#5480#5481#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,8 +377,11 @@
       <find>GenericFilter</find>
       <find>mysql</find>
       <find>deq</find>
-      <find>afterPropertiesSet</find>
       <find>AtomicReference</find>
+      <find>datasource</find>
+      <find>properties</find>
+      <find>MybatisProperties</find>
+      <find>afterPropertiesSet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,9 +397,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/huihui/aligo/mvc/ExtDispatcherServlet.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huihui/aligo/factory/YamlPropertyLoaderFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/application-company.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/huihui/aligo/AligoApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourceProperties.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/huihui/aligo/AligoApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourcePool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huihui/aligo/controller/DataSourceController.java" />
       </list>
@@ -209,8 +426,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/maven/apache-maven-3.5.0" />
-        <option name="userSettingsFile" value="D:\maven\settings-best.xml" />
+        <option name="mavenHome" value="W:/maven/apache-maven-3.5.0" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -287,6 +503,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -400,17 +617,6 @@
               <item name="aligo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="huihui" type="462c0819:PsiDirectoryNode" />
-              <item name="aligo" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aligo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aligo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -436,11 +642,50 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="aligo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aligo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aligo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aligo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aligo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aligo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aligo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aligo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="huihui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aligo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aligo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="huihui" type="462c0819:PsiDirectoryNode" />
+              <item name="aligo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -452,25 +697,26 @@
     <property name="SearchEverywhereHistoryKey" value="DataSource&#9;PSI&#9;JAVA://javax.sql.DataSource&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;BlockingQ&#9;FILE&#9;jar://D:/JDK/jdk8/src.zip!/java/util/concurrent/BlockingQueue.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602324738392" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602389350424" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="sshConsole" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\open-dev\aligo\src\main\resources\config" />
+      <recent name="W:\open-dev\aligo\src\main\resources" />
+      <recent name="W:\open-dev\aligo\web" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="W:\open-dev\aligo\web" />
       <recent name="W:\open-dev\aligo\src\main\webapp" />
       <recent name="W:\open-dev\aligo\src\main" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="W:\open-dev\aligo\src\main\resources" />
-      <recent name="W:\open-dev\aligo\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -485,7 +731,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat">
+  <component name="RunManager" selected="Spring Boot.AligoApplication">
     <configuration name="AligoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="aligo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.huihui.aligo.AligoApplication" />
@@ -576,6 +822,9 @@
       <item itemvalue="Tomcat Server.tomcat" />
     </list>
   </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -589,17 +838,19 @@
       <workItem from="1602246796334" duration="6122000" />
       <workItem from="1602255777585" duration="910000" />
       <workItem from="1602294616585" duration="19383000" />
+      <workItem from="1602337975655" duration="5280000" />
+      <workItem from="1602382435138" duration="7033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26415000" />
+    <option name="totallyTimeSpent" value="38728000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2627346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -608,9 +859,9 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.52551574" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5059718" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37202796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.9020979" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -619,24 +870,25 @@
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32790446" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32587412" />
       <window_info anchor="bottom" id="SonarLint" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="right" id="Bean Validation" weight="0.3297587" />
       <window_info anchor="right" id="BPMNPalette" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32942432" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32908848" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2627346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -645,9 +897,9 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.52551574" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5059718" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37202796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.9020979" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -656,21 +908,22 @@
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32790446" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32587412" />
       <window_info anchor="bottom" id="SonarLint" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="16" />
-      <window_info anchor="right" id="BPMNPalette" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32942432" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="0" weight="0.3297587" />
+      <window_info anchor="right" id="BPMNPalette" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32908848" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,7 +937,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/mvc/ExtDispatcherServlet.java</url>
-          <line>188</line>
+          <line>220</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
@@ -693,6 +946,10 @@
         <breakpoints-dialog />
       </breakpoints-dialog>
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -724,17 +981,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/web/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml" />
-    <entry file="jar://W:/java/jdk/src.zip!/java/lang/reflect/Method.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -749,13 +995,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JDK/jdk8/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="961">
-          <caret line="5317" column="26" selection-start-line="5317" selection-start-column="26" selection-end-line="5317" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/JDK/jdk8/src.zip!/java/util/Collections.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/model/Foot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -777,23 +1017,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="551">
-            <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/jdk8/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/JDK/jdk8/src.zip!/java/sql/DriverManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/javassist/TestDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -807,9 +1031,6 @@
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.3.RELEASE/spring-boot-2.3.3.RELEASE.jar!/org/springframework/boot/jdbc/DataSourceInitializationMode.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -832,72 +1053,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JDK/jdk8/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3078">
-          <folding>
-            <element signature="e#0#15739#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/jdk8/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="156" column="31" lean-forward="true" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/jdk8/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="90" column="54" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/jdk8/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="217" column="17" lean-forward="true" selection-start-line="217" selection-start-column="17" selection-end-line="217" selection-end-column="17" />
-          <folding>
-            <element signature="e#7388#7389#0" expanded="true" />
-            <element signature="e#7427#7428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/jdk8/src.zip!/javax/sql/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/AligoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="60" column="59" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/jdbc/JdbcUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/JDK/jdk8/src.zip!/java/util/concurrent/BlockingQueue.java" />
+    <entry file="jar://D:/JDK/jdk8/src.zip!/java/util/concurrent/ArrayBlockingQueue.java" />
+    <entry file="jar://D:/JDK/jdk8/src.zip!/java/util/concurrent/Executors.java" />
+    <entry file="jar://D:/JDK/jdk8/src.zip!/java/util/concurrent/LinkedBlockingQueue.java" />
+    <entry file="jar://D:/JDK/jdk8/src.zip!/javax/sql/DataSource.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9.jar!/com/alibaba/druid/pool/DruidDataSource.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1064">
@@ -905,38 +1065,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/application-company.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.9/druid-spring-boot-starter-1.1.9.jar!/com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/jdk8/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="368" column="69" selection-start-line="368" selection-start-column="57" selection-end-line="368" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/JDK/jdk8/src.zip!/java/lang/Object.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="67" column="34" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -954,30 +1087,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourceProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/DataSourceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/DataSourceDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/thread/BlockingQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1006,20 +1116,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourcePool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/jdbc/JdbcUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="344">
+          <caret line="29" column="63" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/factory/YamlPropertyLoaderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.3.RELEASE/spring-boot-2.3.3.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.3.RELEASE/spring-boot-2.3.3.RELEASE.jar!/org/springframework/boot/context/properties/EnableConfigurationProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.9/druid-spring-boot-starter-1.1.9.jar!/com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Spring-demo.xml.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.3/mybatis-spring-boot-autoconfigure-2.1.3.jar!/org/mybatis/spring/boot/autoconfigure/MybatisProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="e#1960#1961#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/application-home.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/application-company.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/AligoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.3/mybatis-spring-boot-autoconfigure-2.1.3-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding>
+            <element signature="e#3486#3487#0" expanded="true" />
+            <element signature="e#3534#3535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.3/mybatis-spring-boot-autoconfigure-2.1.3-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="85" column="65" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="65" />
+          <folding>
+            <element signature="e#5447#5448#0" expanded="true" />
+            <element signature="e#5480#5481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/huihui/aligo/AligoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourceProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/controller/DataSourceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huihui/aligo/dbcp/ExtDataSourcePool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="77" column="93" lean-forward="true" selection-start-line="77" selection-start-column="93" selection-end-line="77" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1080,11 +1366,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|aligo</last-edited>
+          <last-edited>aligo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -14,7 +14,7 @@
     <artifactId>aligo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>aligo</name>
-    <packaging>war</packaging>
+    <!--<packaging>war</packaging>-->
 
 
     <properties>
@@ -59,6 +59,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
 
         <dependency>

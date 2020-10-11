@@ -2,6 +2,7 @@ package com.huihui.aligo.dbcp;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -18,9 +19,12 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @create 2020-10-10 16:53
  **/
 @Component
-public class ExtDataSourcePool implements ExtDataSource {
+public class ExtDataSourcePool implements ExtDataSource, InitializingBean {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ExtDataSourcePool.class);
+
+    @Autowired
+    private ExtDataSourceProperties extDataSourceProperties;
 
     /**
      * 空闲连接池
@@ -39,9 +43,15 @@ public class ExtDataSourcePool implements ExtDataSource {
      * 初始化空闲连接池
      */
     public ExtDataSourcePool() {
+        //不能在构造防范中直接使用extDataSourceProperties，此时仍为null
+        //因此放到afterPropertiesSet中
+    }
+
+    @Override
+    public void afterPropertiesSet() {
         try {
             Connection connection;
-            for (int i = 0;i < dataSourceProperties.getInitConnections();i++) {
+            for (int i = 0;i < extDataSourceProperties.getInitConnections();i++) {
                 connection = rawGetConnection();
                 if (isAvailable(connection)) {
                     freePool.add(connection);
@@ -50,12 +60,10 @@ public class ExtDataSourcePool implements ExtDataSource {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
 
-    @Autowired
-    private ExtDataSourceProperties dataSourceProperties;
+
 
 
     /**
@@ -67,7 +75,7 @@ public class ExtDataSourcePool implements ExtDataSource {
         Connection connection = null;
 
         try {
-            if (totalConnections.get() < dataSourceProperties.getMaxActicveConnections()) {
+            if (totalConnections.get() < extDataSourceProperties.getMaxActiveConnections()) {
                 //当前存活连接数 < 最大连接数
                 if (!freePool.isEmpty()) {
                     //有空闲连接，则从空闲池取连接
@@ -85,7 +93,7 @@ public class ExtDataSourcePool implements ExtDataSource {
                 //当前存活连接数 > 最大连接数
                 //执行等待
                 LOGGER.info("连接数已超标，执行等待");
-                wait(dataSourceProperties.getConnectionTimeOut());
+                wait(extDataSourceProperties.getConnectionTimeOut());
                 //重试获取连接
                 connection = getConnection();
             }
@@ -114,7 +122,7 @@ public class ExtDataSourcePool implements ExtDataSource {
             if (!isAvailable(connection)) {
                 return;
             }
-            if (freePool.size() >= dataSourceProperties.getMaxFreeConnections()) {
+            if (freePool.size() >= extDataSourceProperties.getMaxFreeConnections()) {
                 //当前空闲连接数 >= 空闲池最大连接数
                 //直接释放
                 connection.close();
@@ -160,11 +168,11 @@ public class ExtDataSourcePool implements ExtDataSource {
     private Connection rawGetConnection() {
         Connection connection = null;
         try {
-            Class.forName(dataSourceProperties.getDriver());
+            Class.forName(extDataSourceProperties.getDriver());
 
-            connection = DriverManager.getConnection(dataSourceProperties.getUrl(),
-                    dataSourceProperties.getUsernme(),
-                    dataSourceProperties.getPassword());
+            connection = DriverManager.getConnection(extDataSourceProperties.getUrl(),
+                    extDataSourceProperties.getUsername(),
+                    extDataSourceProperties.getPassword());
             //每新建连接，计数值加一
             totalConnections.incrementAndGet();
         } catch (Exception e) {
@@ -172,5 +180,6 @@ public class ExtDataSourcePool implements ExtDataSource {
         }
         return connection;
     }
+
 
 }
