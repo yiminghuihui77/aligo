@@ -5,8 +5,6 @@ b
 2src/main/java/com/huihui/aligo/jdbc/JdbcUtils.java,6\e\6eff5ade3b5bd39d9b8d1b94f0a2a837efe99137
 u
 Esrc/main/java/com/huihui/aligo/factory/YamlPropertyLoaderFactory.java,e\5\e5dc9c13f47e791294e5f51cf4bb952332493348
-Q
-!src/main/resources/Spring.xml.xml,0\1\0110eea183c8b1b98b2fb60e3d47c8f5d0eecdfe
 a
 1src/main/resources/config/application-company.yml,5\4\54d40e9e57fb1acead0d9aca67665eeadcd238d1
 f
