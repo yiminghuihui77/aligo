@@ -57,6 +57,8 @@ public class ExtDataSourcePool implements ExtDataSource, InitializingBean {
                     freePool.add(connection);
                 }
             }
+            //初始化总连接数 = 初始空闲连接数
+            totalConnections.set(extDataSourceProperties.getInitConnections());
         } catch (Exception e) {
             e.printStackTrace();
         }
