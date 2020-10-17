@@ -1,7 +1,7 @@
 package com.huihui.aligo.repository.impl;
 
 import com.huihui.aligo.so.StoreSo;
-import com.huihui.aligo.mapper.StoreMapper;
+import com.huihui.aligo.mapper.test01.StoreMapper;
 import com.huihui.aligo.model.Store;
 import com.huihui.aligo.repository.StoreRepository;
 import org.springframework.beans.factory.annotation.Autowired;

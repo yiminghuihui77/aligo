@@ -20,7 +20,7 @@ import java.lang.reflect.Method;
  * @author minghui.y BG358486
  * @create 2020-10-07 12:14
  **/
-@Aspect
+//@Aspect
 @Component
 public class AopTransactionAspect {
 

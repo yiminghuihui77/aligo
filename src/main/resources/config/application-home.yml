@@ -2,16 +2,30 @@ server:
   port: 8090
 
 #数据源配置
-spring:
-  datasource:
-    druid:
-      name: mysql
-      url: jdbc:mysql://localhost:3306/aligo
-      username: root
-      password: ymh96122
-      driver-class-name: com.mysql.jdbc.Driver
-      max-active: 100
-      initial-size: 1
-      min-idle: 1
-      max-wait: 60000
+#spring:
+#  datasource:
+#    druid:
+#      name: mysql
+#      url: jdbc:mysql://localhost:3306/aligo
+#      username: root
+#      password: ymh96122
+#      driver-class-name: com.mysql.jdbc.Driver
+#      max-active: 100
+#      initial-size: 1
+#      min-idle: 1
+#      max-wait: 60000
 
+
+#多数据源配置数据库信息
+ext:
+  datasource:
+    test01:
+      driver-class-name: com.mysql.jdbc.Driver
+      password: ymh96122
+      jdbc-url: jdbc:mysql://localhost:3306/aligo
+      username: root
+    test02:
+      driver-class-name: com.mysql.jdbc.Driver
+      password: ymh96122
+      jdbc-url: jdbc:mysql://localhost:3306/aligo02
+      username: root

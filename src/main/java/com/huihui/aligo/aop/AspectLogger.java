@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  **/
 @Component
 @EnableAspectJAutoProxy
-@Aspect
+//@Aspect
 public class AspectLogger {
 
     @Before("execution(* com.huihui.aligo.service.StoreService.getStoreBySo(..))")

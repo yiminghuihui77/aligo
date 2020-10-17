@@ -1,7 +1,11 @@
 spring:
   profiles:
-    active: company
+    active: home
+  freemarker:
+    suffix: .ftl
+    template-loader-path: classpath:/templates/
 
+# 手写数据库连接池用到
 ext:
   datasource:
     driver: com.mysql.jdbc.Driver
@@ -12,4 +16,5 @@ ext:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.huihui.aligo.model
+
 

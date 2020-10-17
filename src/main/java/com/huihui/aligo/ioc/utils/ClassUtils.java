@@ -1,8 +1,5 @@
 package com.huihui.aligo.ioc.utils;
 
-import com.huihui.aligo.controller.HelloWorldController;
-import com.huihui.aligo.model.User;
-
 import java.io.File;
 import java.io.IOException;
 import java.net.JarURLConnection;

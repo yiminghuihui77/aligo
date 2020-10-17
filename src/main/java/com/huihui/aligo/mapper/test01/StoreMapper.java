@@ -1,4 +1,4 @@
-package com.huihui.aligo.mapper;
+package com.huihui.aligo.mapper.test01;
 
 import com.huihui.aligo.so.StoreSo;
 import com.huihui.aligo.model.Store;
@@ -10,7 +10,7 @@ import java.util.List;
  * @author minghui.y @BG358486
  * @create 2020-09-03 20:37
  **/
-@Mapper
+//@Mapper
 public interface StoreMapper {
 
     /**
