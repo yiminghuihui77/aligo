@@ -19,6 +19,7 @@ class HelloWorldController {
 //        int i = 1 / 0;
 
         map.put("name", "helloWorld");
+        map.put("address", "");
         return "home";
     }
 
