@@ -21,8 +21,8 @@ import java.util.Map;
  * @author minghui.y BG358486
  * @create 2020-10-17 16:50
  **/
-@Component
-@Aspect
+//@Component
+//@Aspect
 @Slf4j
 public class GlobalLoggerRecordAspect {
 
