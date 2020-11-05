@@ -37,3 +37,9 @@ Spring Boot框架
 >IO流
 
 >设计模式（demo在eclipse中）
+
+
+>分布式技术
+服务保护Hystrix、RateLimit令牌桶算法限流
+Zookeeper分布式协调工具
+  
