@@ -23,7 +23,21 @@
         <java.version>1.8</java.version>
     </properties>
 
-    <dependencies>
+    <!--apollo-->
+    <dependencies> <dependency>
+        <groupId>com.ctrip.framework.apollo</groupId>
+        <artifactId>apollo-client</artifactId>
+        <version>1.1.0</version>
+    </dependency>
+
+
+
+        <!--quartz定时任务-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-quartz</artifactId>
+        </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

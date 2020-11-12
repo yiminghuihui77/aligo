@@ -26,8 +26,8 @@ import java.util.concurrent.TimeUnit;
  * @author minghui.y BG358486
  * @create 2020-10-30 21:09
  **/
-@Component
-@Aspect
+//@Component
+//@Aspect
 public class RateLimitAspect {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RateLimitAspect.class);

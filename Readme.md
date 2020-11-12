@@ -42,4 +42,5 @@ Spring Boot框架
 >分布式技术
 服务保护Hystrix、RateLimit令牌桶算法限流
 Zookeeper分布式协调工具
-  
+分布式任务调度平台：XXL-JOB  http://www.xuxueli.com/xxl-job
+分布式配置中心：SpringCloud Config、Apollo
