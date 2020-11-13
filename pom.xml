@@ -24,11 +24,21 @@
     </properties>
 
     <!--apollo-->
-    <dependencies> <dependency>
-        <groupId>com.ctrip.framework.apollo</groupId>
-        <artifactId>apollo-client</artifactId>
-        <version>1.1.0</version>
-    </dependency>
+    <dependencies>
+
+        <!--redis-->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+
+        <!--apollo客户端-->
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+            <version>1.1.0</version>
+        </dependency>
 
 
 

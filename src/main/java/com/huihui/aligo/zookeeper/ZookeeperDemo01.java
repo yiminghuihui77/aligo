@@ -5,7 +5,7 @@ import org.apache.zookeeper.*;
 import java.io.IOException;
 import java.util.concurrent.CountDownLatch;
 
-/**
+/** zookeeper简单使用
  * @author minghui.y BG358486
  * @create 2020-10-31 14:29
  **/
