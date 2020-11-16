@@ -44,3 +44,4 @@ Spring Boot框架
 Zookeeper分布式协调工具
 分布式任务调度平台：XXL-JOB  http://www.xuxueli.com/xxl-job
 分布式配置中心：SpringCloud Config、Apollo
+Dubbo框架（本项目仅展示服务提供者的服务注册功能）

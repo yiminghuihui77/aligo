@@ -1,5 +1,6 @@
 package com.huihui.aligo;
 
+import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -11,6 +12,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
  * aligo
  * @author minghui.y
  */
+@EnableDubbo
 @SpringBootApplication
 @EnableConfigurationProperties
 public class AligoApplication {

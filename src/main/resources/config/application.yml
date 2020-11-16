@@ -30,6 +30,20 @@ apollo:
     namespaces: application
   meta: http://127.0.0.1:8080
 
+# Dubbo框架
+dubbo:
+  application:
+    name: member
+    #协议，20880端口用于netty通信
+  protocol:
+    name: dubbo
+    port: 20880
+    #注册中心地址
+  registry:
+    address: zookeeper://127.0.0.1:2181
+    #服务具体实现的包路径
+  scan:
+    base-packages: com.huihui.aligo.dubbo.impl.MemberServiceImpl
 
 
 

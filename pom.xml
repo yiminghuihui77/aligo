@@ -23,8 +23,13 @@
         <java.version>1.8</java.version>
     </properties>
 
-    <!--apollo-->
     <dependencies>
+
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>0.2.0</version>
+        </dependency>
 
         <!--redis-->
         <dependency>
