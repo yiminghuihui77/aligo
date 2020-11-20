@@ -1,11 +1,8 @@
 spring:
-  profiles:
-    active: home
-  application:
-    name: aligo
   freemarker:
     suffix: .ftl
     template-loader-path: classpath:/templates/
+
 
 # 手写数据库连接池用到
 ext:
@@ -21,14 +18,14 @@ mybatis:
 
 
 # apollo配置
-app:
-  id: aligo
-apollo:
-  cluster: dev
-  bootstrap:
-    enabled: true
-    namespaces: application
-  meta: http://127.0.0.1:8080
+#app:
+#  id: aligo
+#apollo:
+#  cluster: dev
+#  bootstrap:
+#    enabled: true
+#    namespaces: application
+#  meta: http://127.0.0.1:8080
 
 # Dubbo框架
 dubbo:
