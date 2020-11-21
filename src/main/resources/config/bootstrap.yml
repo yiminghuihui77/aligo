@@ -1,19 +1,19 @@
 # bootstrap.yml是应用程序的上下文引导文件（SpringCloud的概念），先于application.yml被加载
 
-spring:
-  application:
-    name: aligo
-  profiles:
-    active: home
-  cloud:
-    # nacos
-    nacos:
-      #注册中心
-      discovery:
-        server-addr: 127.0.0.1:8848
-        enabled: true
-      #分布式配置中心
-      config:
-        server-addr: 127.0.0.1:8848
-        group: DEFAULT_GROUP
-        file-extension: yaml
+#spring:
+#  application:
+#    name: aligo
+#  profiles:
+#    active: home
+#  cloud:
+#    # nacos
+#    nacos:
+#      #注册中心
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#        enabled: true
+#      #分布式配置中心
+#      config:
+#        server-addr: 127.0.0.1:8848
+#        group: DEFAULT_GROUP
+#        file-extension: yaml

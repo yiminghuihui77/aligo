@@ -41,10 +41,19 @@ Spring Boot框架
 
 >分布式技术
 服务保护Hystrix、RateLimit令牌桶算法限流
-Zookeeper分布式协调工具：实现注册中心（服务注册&发现）、分布式锁
-分布式任务调度平台：XXL-JOB  http://www.xuxueli.com/xxl-job
-分布式配置中心：SpringCloud Config、Apollo
-Dubbo框架（本项目仅展示服务提供者的服务注册功能）
-SpringCloud Alibaba:
+
+>Zookeeper分布式协调工具：实现注册中心（服务注册&发现）、分布式锁
+ Redis实现分布式锁
+>分布式任务调度平台：XXL-JOB  http://www.xuxueli.com/xxl-job
+
+>分布式配置中心：SpringCloud Config、Apollo
+
+>>>Dubbo框架（本项目仅展示服务提供者的服务注册功能）
+
+>>SpringCloud Alibaba:
  Nacos:注册中心、分布式配置中心
+ OpenFeign客户端调用方式
+ Gateway网关
+ Sentinel分布式系统流量防卫兵
+
 
