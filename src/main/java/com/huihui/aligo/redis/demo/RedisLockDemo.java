@@ -1,4 +1,6 @@
-package com.huihui.aligo.redis.lock;
+package com.huihui.aligo.redis.demo;
+
+import com.huihui.aligo.redis.lock.RedisLockService;
 
 /**
  * @author minghui.y

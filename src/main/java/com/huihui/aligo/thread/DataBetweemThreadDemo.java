@@ -5,7 +5,7 @@ import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 
 /**
- * 线程间数据通信
+ * 线程间数据传输：PipedInputStream、PipedOutputStream
  *
  * @author minghui.y BG358486
  * @create 2020-09-10 23:25

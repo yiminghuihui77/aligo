@@ -16,12 +16,12 @@ public class SynchronizedDemo {
         new Thread(saleTicketsTask).start();
         new Thread(saleTicketsTask).start();
 
-        try {
-            Thread.sleep(200);
-        } catch (Exception e){
-            e.printStackTrace();
-        }
-        saleTicketsTask.flag = false;
+//        try {
+//            Thread.sleep(200);
+//        } catch (Exception e){
+//            e.printStackTrace();
+//        }
+//        saleTicketsTask.flag = false;
 
         new Thread(saleTicketsTask).start();
         new Thread(saleTicketsTask).start();
@@ -30,8 +30,8 @@ public class SynchronizedDemo {
 
 
     public static class SaleTickets implements Runnable {
-
-        private Integer tickets = 20;
+        //票数需要足够多，才能看出多线程效果
+        private Integer tickets = 2000;
         private boolean flag = true;
 
         @Override
@@ -54,7 +54,7 @@ public class SynchronizedDemo {
 
                    try {
                        //此处休眠，让其他线程执行
-                       Thread.sleep(300);
+                       Thread.sleep(1);
                    } catch (InterruptedException e) {
                        e.printStackTrace();
                    }

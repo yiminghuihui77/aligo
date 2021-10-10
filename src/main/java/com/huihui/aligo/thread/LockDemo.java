@@ -5,6 +5,9 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ * 案例：
+ * 生产者负责更新human的属性信息，消费者负责读取并打印属性信息
+ * 生产者写完之后，需要消费者消费过后才能再次申请
  * @author minghui.y BG358486
  * @create 2020-09-26 10:48
  **/
@@ -81,8 +84,6 @@ public class LockDemo {
                     human.isWrited = true;
                     condition.signal();
                 }
-
-
                 //生产后释放锁
                 human.lock.unlock();
             }
